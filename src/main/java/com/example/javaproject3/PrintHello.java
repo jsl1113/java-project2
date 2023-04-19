@@ -1,4 +1,6 @@
-public class ByeClass {
+package com.example.javaproject3;
+
+public class PrintHello {
     public void print() {
         System.out.println("Hello");
     }
