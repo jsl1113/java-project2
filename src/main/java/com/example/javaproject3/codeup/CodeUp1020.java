@@ -7,5 +7,6 @@ public class CodeUp1020 {
         Scanner sn = new Scanner(System.in);
         String[] me = sn.next().split("-");
         System.out.println(me[0] + me[1]);
+
     }
 }

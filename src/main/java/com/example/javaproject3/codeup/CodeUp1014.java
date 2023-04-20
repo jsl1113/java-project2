@@ -8,5 +8,6 @@ public class CodeUp1014 {
         char x = sn.next().charAt(0);
         char y = sn.next().charAt(0);
         System.out.println(y + " " + x);
+
     }
 }

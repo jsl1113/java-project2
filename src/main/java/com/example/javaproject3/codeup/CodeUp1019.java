@@ -10,5 +10,6 @@ public class CodeUp1019 {
         int m = Integer.valueOf(date[1]);
         int d = Integer.valueOf(date[2]);
         System.out.println(String.format("%04d.%02d.%02d", y, m, d));
+
     }
 }
