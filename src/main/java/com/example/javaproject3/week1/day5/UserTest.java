@@ -8,8 +8,8 @@ public class UserTest {
         sseni.age = 25;
 
         User kyeongrok = new User();
-        sseni.name = "김경록";
+        sseni.name = "가나다";
         sseni.phoneNumber = "010-0000-1235";
-        sseni.age = 37;
+        sseni.age = 30;
     }
 }
