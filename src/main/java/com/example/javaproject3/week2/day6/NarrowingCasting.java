@@ -21,10 +21,5 @@ public class NarrowingCasting {
         System.out.println(val1 + val2);
         float result1 = Float.parseFloat(val1) + Float.parseFloat(val2);
         System.out.println(result1);
-
-        String val3 = "1.11111111"; // 소수점 여덟 자리
-        String val4 = "2.11111111"; // 소수점 여덟 자리
-        float result2 = Float.parseFloat(val1) + Float.parseFloat(val2);
-        System.out.println(result2);
     }
 }
