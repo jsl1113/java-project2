@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class CodeUp1056 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        if(sc.nextInt() != sc.nextInt()) System.out.println(1);
-        else System.out.println(0);
+        System.out.println(sc.nextInt() != sc.nextInt() ? 1 : 0);
     }
 }
