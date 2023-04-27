@@ -1,4 +1,4 @@
-package com.example.javaproject3.week2.day8;
+package com.example.javaproject3.week2.day9;
 
 public class Accumulate687 {
     public static void main(String[] args) {
@@ -12,5 +12,7 @@ public class Accumulate687 {
         num = num / 10;
         answer = answer + num % 10; // 나머지 구해 누적하기
         System.out.printf("answer:%d\n", answer);
+
+
     }
 }
