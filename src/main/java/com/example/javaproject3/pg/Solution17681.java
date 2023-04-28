@@ -6,9 +6,8 @@ public class Solution17681 {
         String[] answer = new String[n];
 
         for (int i = 0; i < n; i++){
-//            String str = Integer.toBinaryString(arr1[i] | arr2[i]);
-//            str = String.format("%" + n + "s", str);
-//            str = str.replaceAll("1", "#").replaceAll("0", " ");
+//            String str = String.format("%16s", Integer.toBinaryString(arr1[i] | arr2[i]));
+//            str = str.substring(str.length()-n).replaceAll("1", "#").replaceAll("0", " ");
 //            answer[i] = str;
             answer[i] = String.format("%" + n + "s", Integer.toBinaryString(arr1[i] | arr2[i]))
                     .replaceAll("1", "#").replaceAll("0", " ");
