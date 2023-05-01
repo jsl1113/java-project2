@@ -12,6 +12,7 @@ public class CodeUp1092 {
         while (true) {
             if (day % p1 == 0 && day % p2 == 0 && day % p3 == 0)
                 break;
+            else day++;
         }
         System.out.println(day);
     }
