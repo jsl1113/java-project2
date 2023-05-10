@@ -24,7 +24,6 @@ public class DrawDiamond {
             FileWriter writer = new FileWriter("Diamond.txt");
             writer.write(sb.toString());
             writer.close();
-            System.out.println("파일에 저장되었습니다.");
         } catch (IOException e) {
             System.out.println("파일 저장 중 오류가 발생하였습니다.");
             e.printStackTrace();
@@ -32,11 +31,10 @@ public class DrawDiamond {
     }
     public static void main(String[] args) {
         int h = 7;
-        int pivot = h / 2;
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < h; i++) {
             sb.append(makeALine(h, i));
-            System.out.print(makeALine(h, i));
+//            System.out.print(makeALine(h, i));
         }
         printFile(sb);
     }
