@@ -14,11 +14,11 @@ public class Solution12946 {
     }
 
     public void hanoi(int n, int start, int end, int mid){
-        if(n == 1) arr.add(new int[]{start, end});  // n이 1일 때 start 에서 end 로 옮기면 되므로 start, end 값을 list 에 저장
+        if(n == 1) arr.add(new int[]{start, end});  // n이 1일 때 start, end 값을 list 에 저장
         else{
             hanoi(n-1, start, mid, end);  // 1. n-1 개의 원판을 start 에서 mid 로 옮김
             arr.add(new int[]{start, end}); // 2. 마지막 큰 원판을 옮긴 과정 저장
-            hanoi(n-1, mid, end, start);  //  3. n-2 개의 원판을 mid 에서 end 로 옮김
+            hanoi(n-1, mid, end, start);  //  3. n-1 개의 원판을 mid 에서 end 로 옮김
         }
     }
     public static void main(String[] args) {
