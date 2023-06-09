@@ -34,9 +34,12 @@ javafx {
   modules = ['javafx.controls', 'javafx.fxml']
 }
 
+mainClassName = 'gui.Main'
+
 dependencies {
 
-  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  implementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
 
