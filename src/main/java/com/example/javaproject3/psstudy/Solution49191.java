@@ -1,6 +1,4 @@
-package com.example.javaproject3.pg;
-
-import java.util.Arrays;
+package com.example.javaproject3.psstudy;
 
 public class Solution49191 {
     public void update(int[][] graph, int i, int j){  // 그래프 업데이트

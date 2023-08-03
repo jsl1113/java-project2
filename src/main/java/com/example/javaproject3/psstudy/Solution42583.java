@@ -1,4 +1,4 @@
-package com.example.javaproject3.pg;
+package com.example.javaproject3.psstudy;
 
 import java.util.LinkedList;
 import java.util.Queue;
